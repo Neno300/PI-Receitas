@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Site</title>
+    <link rel="stylesheet" href="../css/estilo.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script type="text/javascript" src="../js/scripts.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#"><img src="../imagens/logo.png" alt="logo" height="100"></a></div>
+            <div class="pesquisar">
+                <form action="#">
+                    <input type="text" placeholder="Pesquisar" id="barra" name="procura">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <ul>
+                <button class="botao"><a href="#">Login</a></button>
+                <button class="botao"><a href="#">Criar Conta</a></button>
+            </ul>
+        </div>
+    </nav>
+    <aside id="sidebar">
+        <ul>
+            <li class="ativo">
+                <a href="index.html">
+                    <i class="bi bi-house-door-fill"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="bi bi-star-fill"></i>
+                    <span>Receitas Populares</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="bi bi-list-stars"></i>
+                    <span>Destaques semanais</span>
+                </a>
+            </li>
+            <li>
+                <button onclick=togglemenu(this) class="dropdown-btn">
+                    <i class="fa-solid fa-utensils"></i>
+                    <span>Receitas</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <ul class="menu">
+                    <div>
+                        <li><a href="#">Doces</a></li>
+                        <li><a href="#">Salgados</a></li>
+                        <li><a href="#">Bebidas</a></li>
+                    </div>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="bi bi-suit-heart-fill"></i>
+                    <span>Contato</span>
+                </a>
+            </li>
+        </ul>
+    </aside>
+    <main>
+        <div class="container">
+            <h2>Ola</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi laudantium nemo expedita, architecto commodi dicta ipsum temporibus laboriosam hic deserunt ducimus iste repellendus officia doloremque. Fugiat fugit dolor odit veniam!</p>
+        </div>
+    </main>
+</body>
+</html>
