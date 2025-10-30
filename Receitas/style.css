@@ -261,6 +261,10 @@ button:hover {
   text-align: left;
 }
 
+.conteudo a:hover{
+  background-color: #f82a14;
+}
+
 .dropdownbtn:hover {
   background-color: #f2c335;
 }
